@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <title>Földsziget Restaurant</title>
+</head>
+<body>
+    <div id="header">
+        <div class="navbar">
+            <div class="home">
+                <a href="./index.html">Főoldal</a>
+            </div>
+            <div class="menu">
+                <a href="./menu.html">Étlap</a>
+            </div>
+            <div class="info">
+                <a href="#">Elérhetőségek</a>
+            </div>
+            <div class="order">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="title">
+            <h1>Étlap</h1>
+        </div>
+    </div>
+    <div id="body">
+        <div class="sideDishes">
+            <h1>Előételek</h1>
+            <div class="food">
+                <img src="./paradicsomleves.jpg" alt="tomatosoup">
+                <div class="foodDesc">
+                    <p class="foodName">Olasz paradicsomleves</p>
+                    <img src="./gluten.png" alt="gluten" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+            <div class="food">
+                <img src="./rantotta.png" alt="omelette">
+                <div class="foodDesc">
+                    <p class="foodName">Snidlinges tojásrántotta</p>
+                    <img src="./tojas.png" alt="egg" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+            <div class="food">
+                <img src="./cezar.jpg" alt="caesar">
+                <div class="foodDesc">
+                    <p class="foodName">Cézár saláta</p>
+                    <img src="./tojas.png" alt="egg" class="allergens">
+                    <img src="./gluten.png" alt="gluten" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+        </div>
+        <div class="mainDishes">
+            <h1>Főételek</h1>
+            <div class="food">
+                <img src="./cordon.jpg" alt="cordon">
+                <div class="foodDesc">
+                    <p class="foodName">Cordon Bleu hasábburgonyával</p>
+                    <img src="./tojas.png" alt="egg" class="allergens">
+                    <img src="./gluten.png" alt="gluten" class="allergens">
+                    <img src="./tej.png" alt="milk" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+            <div class="food">
+                <img src="./fogasfile.jpg" alt="fishdish">
+                <div class="foodDesc">
+                    <p class="foodName">Fogasfilé paradicsomos újhagymán</p>
+                    <img src="./hal.png" alt="fish" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+            <div class="food">
+                <img src="./wok.jpg" alt="wok">
+                <div class="foodDesc">
+                    <p class="foodName">Gyömbéres csirke pirított tésztával</p>
+                    <img src="./szoja.png" alt="soy" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+        </div>
+        <div class="desserts">
+            <h1>Desszertek</h1>
+            <div class="food">
+                <img src="./pali.jpg" alt="pancake">
+                <div class="foodDesc">
+                    <p class="foodName">Amerikai palacsinta juharsziruppal és friss áfonyával</p>
+                    <img src="./gluten.png" alt="gluten" class="allergens">
+                    <img src="./tej.png" alt="tej" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+            <div class="food">
+                <img src="./muffin.jpg" alt="muffin">
+                <div class="foodDesc">
+                    <p class="foodName">Csokis-mogyorós muffin</p>
+                    <img src="./gluten.png" alt="gluten" class="allergens">
+                    <img src="./tej.png" alt="milk" class="allergens">
+                    <img src="./mogyoro.png" alt="peanut" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+            <div class="food">
+                <img src="./madartej.jpg" alt="floatingisland">
+                <div class="foodDesc">
+                    <p class="foodName">Vaníliás madártej</p>
+                    <img src="./tojas.png" alt="egg" class="allergens">
+                    <img src="./tej.png" alt="milk" class="allergens">
+                </div>
+                <button type="button" class="orderButton">Kosárhoz ad</button>
+            </div>
+        </div>
+        <div class="allergenTable">
+            <table>
+                <tr>
+                    <th class="allergenIcon">Jelzés</th>
+                    <th class="allergenName">Megnevezés</th>
+                    <th class="allergenDesc">Leírás</th>
+                </tr>
+                <tr>
+                    <td class="allergenIcon">
+                        <img src="./tojas.png" alt="egg">
+                    </td>
+                    <td class="allergenName">Tojás</td>
+                    <td class="allergenDesc">Ide tartozik a baromfi tojás mellett a kacsatojás, a fürjtojás, libatojás stb.</td>
+                </tr>
+                <tr>
+                    <td class="allergenIcon">
+                        <img src="./tej.png" alt="milk">
+                    </td>
+                    <td class="allergenName">Tej</td>
+                    <td class="allergenDesc">Tej és az abból készült termékek (beleértve a laktózt), kivéve: alkoholpárlatok készítéséhez használt tejsavó és laktit.</td>
+                </tr>
+                <tr>
+                    <td class="allergenIcon">
+                        <img src="./gluten.png" alt="gluten">
+                    </td>
+                    <td class="allergenName">Glutént tartalmazó gabona</td>
+                    <td class="allergenDesc">Glutént tartalmazó gabonafélék, azaz búza, rozs, árpa, zab, illetve hibridizált fajtáik, valamint a belőlük készült termékek.</td>
+                </tr>
+                <tr>
+                    <td class="allergenIcon">
+                        <img src="./hal.png" alt="fish">
+                    </td>
+                    <td class="allergenName">Hal</td>
+                    <td class="allergenDesc">Hal és a belőle készült termékek, kivéve: a sör és a bor derítőanyagaként használt halenyv vagy vizahólyag.</td>
+                </tr>
+                <tr>
+                    <td class="allergenIcon">
+                        <img src="./mogyoro.png" alt="peanut">
+                    </td>
+                    <td class="allergenName">Földimogyoró</td>
+                    <td class="allergenDesc">Valójában föld alatt termő és a hüvelyesek közé tartozó növény.</td>
+                </tr>
+                <tr>
+                    <td class="allergenIcon">
+                        <img src="./szoja.png" alt="soy">
+                    </td>
+                    <td class="allergenName">Szója</td>
+                    <td class="allergenDesc">Szójabab és a belőle készült termékek, kivéve: a teljes mértékben finomított szójababolaj és -zsír.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright ©2020 All rights reserved | Gaál Bence, Ligeti Tamás</p>
+    </div>
+</body>
+</html>
